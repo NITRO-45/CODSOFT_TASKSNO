@@ -45,7 +45,7 @@ for (x, y, w, h) in faces:
         (255, 0, 0),
         2
     )
-
+print("Number of faces detected:", len(faces))
 # Show result
 cv2.imshow("Face Detection", image)
 
